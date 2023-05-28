@@ -8,8 +8,7 @@ import {
   ListItem,
   ContactName,
   DeleteButton,
-  PhonebookImage,
-} from './ContactList.styled';
+  } from './ContactList.styled';
 
 
 const ContactList = ({ contacts, onDelete }) => {

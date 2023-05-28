@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 import ContactForm from './ContactForm/ContactForm';
 import ContactList from './ContactList/ContactList';
 import Filter from './Filter/Filter';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 import { Container, PhonebookImage } from './App.styled';
 import phonebookImage from '../asset/phonebook.png';
 // import { ContactName } from './ContactList/ContactList.styled';
