@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 import { nanoid } from 'nanoid';
-// import PropTypes from 'prop-types';
 import ContactForm from './ContactForm/ContactForm';
 import ContactList from './ContactList/ContactList';
 import Filter from './Filter/Filter';
-// import styled from 'styled-components';
 import { Container, PhonebookImage } from './App.styled';
 import phonebookImage from '../asset/phonebook.png';
-// import { ContactName } from './ContactList/ContactList.styled';
 
 class App extends Component {
   state = {

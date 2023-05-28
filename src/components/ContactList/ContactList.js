@@ -1,8 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import ContactItem from '../ContactItem/ContactItem';
-// import { List, ListItem, ContactName, DeleteButton } from 
-//   './ContactList.styled';
 import {
   ListContainer,
   ListItem,

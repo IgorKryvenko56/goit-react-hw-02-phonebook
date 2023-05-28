@@ -1,7 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import { Input, PhonebookImage } from './Filter.styled';
-
 
 
 const Filter = ({ value, onChange }) => {
