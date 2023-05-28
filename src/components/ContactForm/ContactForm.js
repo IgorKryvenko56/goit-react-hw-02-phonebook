@@ -1,15 +1,10 @@
 import React, { Component } from 'react';
-import { nanoid } from 'nanoid';
 import PropTypes from 'prop-types';
 import {
   FormContainer,
   Input,
   Button,
-  PhonebookImage,
-} from './ContactForm.styled';
-
-
-
+ } from './ContactForm.styled';
 
 class ContactForm extends Component {
   state = {
@@ -42,7 +37,6 @@ class ContactForm extends Component {
     const { name, number } = this.state;
 
     return (
-      // <form onSubmit={this.handleSubmit}>
       <FormContainer onSubmit={this.handleSubmit}>
         <input
           type="text"
